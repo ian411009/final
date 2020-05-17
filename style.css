@@ -20,6 +20,13 @@ body {
   50%{background-color:#fff36b;}
   100%{backgroundcolor:#fff1cf;}
 }
+/* .floor{
+  position:fixed;
+  width: 100%;
+  height: 20px;
+  background-color:#ffaf3d;
+  top:650px;
+} */
 .palm{
   content:'';
   position: absolute;
