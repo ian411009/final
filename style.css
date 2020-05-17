@@ -20,13 +20,6 @@ body {
   50%{background-color:#fff36b;}
   100%{backgroundcolor:#fff1cf;}
 }
-.floor{
-  position:fixed;
-  width: 100%;
-  height: 20px;
-  background-color:#ffaf3d;
-  top:650px;
-}
 .palm{
   content:'';
   position: absolute;
@@ -380,7 +373,7 @@ border: 0px solid #000000;
   position:fixed;
   top:100px;
   left:-280px;
-   transfrom:scale(1.3);
+   transfrom:scale(1.5);
   animation-name: teddyy;
   animation-duration: 2s;
   animation-iteration-count: infinite;
