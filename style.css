@@ -378,7 +378,7 @@ border: 0px solid #000000;
 .teddy{
   position:fixed;
   top:100px;
-  left:-300px;
+  left:-280px;
   animation-name: teddyy;
   animation-duration: 2s;
   animation-iteration-count: infinite;
