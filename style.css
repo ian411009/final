@@ -6,10 +6,10 @@ body {
   background-color: #ffef91;
   position: relative;
   margin: 0;
-  height:525px;
+  height: 525px;
   width: 100%;
   border-top: solid 20px #ffaf3d;
-   border-bottom:solid 20px #ffaf3d;
+  border-bottom:solid 20px #ffaf3d;
   animation:background;
   animation-duration:7s;
   animation-iteration-count:infinite;
@@ -20,13 +20,6 @@ body {
   50%{background-color:#fff36b;}
   100%{backgroundcolor:#fff1cf;}
 }
-/* .floor{
-  position:fixed;
-  width: 100%;
-  height: 20px;
-  background-color:#ffaf3d;
-  top:650px;
-} */
 .palm{
   content:'';
   position: absolute;
@@ -84,22 +77,31 @@ body {
 }
 .bearpaw{
 position:absolute;
-top:58px;
-  left:68%;
-  transition:all 1s cubic-bezier(0.5, -0.8, 0.2, 1.5) 0.1s;
-/*   animation-name: p;
-  animation-duration: 3s;
-  animation-iteration-count: infinite; */
+top:-23px;
+  left:38%;
+  animation-name:p;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction:alternate;
 }
 @keyframes p{
-  50%{transform:scale(1.1);}
+  0%{top:-33px;}
+  100%{top:-23px;}
 }
 .bearpaw.second{
   position:absolute;
-  top:54px;
-  left:68%;
+  top:-30px;
+  left:36%;
   transform:scale(0.8);
   z-index:22;
+  animation-name:ps;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-direction:alternate;
+}
+@keyframes ps{
+  0%{top:-33px;}
+  100%{top:-25px;}
 }
 .circle {
   position: absolute;
@@ -120,7 +122,7 @@ top:58px;
   animation-name: pp;
   animation-duration: 3s;
   animation-iteration-count: infinite;
-  animation-direction:infinite;
+  animation-direction:alternate;
 }
 @keyframes pp{
   0%{transform:scale(1);}
@@ -379,12 +381,11 @@ border: 0px solid #000000;
 .teddy{
   position:fixed;
   top:100px;
-  left:-240px;
-   transfrom:scale(1.8);
+  left:-300px;
   animation-name: teddyy;
   animation-duration: 2s;
   animation-iteration-count: infinite;
-  animation-direction:infinite;
+  animation-direction:alternate;
 }
 @keyframes teddyy{
   0%{left:-300px;top:103px;}
@@ -405,6 +406,7 @@ border: 0px solid #000000;
   left:50%;
 box-shadow: 7px 12px 17px 1.555px rgba(255,199,59,1);
 }
+
 .write{
   position: absolute;
   left: 5%;
