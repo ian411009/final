@@ -1,5 +1,5 @@
 * {
-   margin: 0;
+  margin: 0;
   padding: 0;
 }
 body {
@@ -139,26 +139,47 @@ top:-23px;
   transform: rotate(-100deg);
   margin-left: 180px;
   margin-top: 5px;
+  animation-name:w;
+  animation-duration:5s;
+  animation-direction:alternate;
+  animation-iteration-count:infinite;
 }
 .paw.f {
   transform: rotate(-65deg);
   margin-left: 160px;
   margin-top: 80px;
+  animation-name:w;
+  animation-duration:5s;
+  animation-direction:alternate;
+  animation-iteration-count:infinite;
 }
 .paw.g {
   transform: rotate(-45deg);
   margin-left: 100px;
   margin-top: 140px;
+  animation-name:w;
+  animation-duration:5s;
+  animation-direction:alternate;
+  animation-iteration-count:infinite;
 }
 .paw.h {
   transform: rotate(-5deg);
   margin-left: 10px;
   margin-top: 170px;
+   animation-name:w;
+  animation-duration:5s;
+  animation-direction:alternate;
+  animation-iteration-count:infinite;
 }
-.backgroundpaw {
+@keyframes  w{
+  0%{transform:scale(1) rotate(-45deg);}
+  50%{transform:scale(0.7) rotate(-65deg);}
+}
+.backgroundpaw:hover {
   position: absolute;
   top: 0;
   z-index: 1;
+  transform:scale(1.1);
 }
 .earleft{
   position:absolute;
@@ -380,18 +401,16 @@ border: 0px solid #000000;
 }
 .teddy{
   position:fixed;
-  top:100px;
-  left:-300px;
+  transform:scale(1.03);
   animation-name: teddyy;
   animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-direction:alternate;
 }
 @keyframes teddyy{
-  0%{left:-300px;top:103px;}
-  50%{left:-305px;}
-  100%{left:-300px;top:103px;}
-  
+  0%{left:-32%;top:90px;}
+  50%{left:-30%;}
+  100%{left:-32%;top:90px;}
 }
 .book{
   position:absolute;
@@ -402,7 +421,7 @@ border: 0px solid #000000;
 -moz-border-radius: 31px 31px 31px 31px;
 -webkit-border-radius: 31px 31px 31px 31px;
 border: 0px solid #000000;
-  top:15%;
+  top:12%;
   left:50%;
 box-shadow: 7px 12px 17px 1.555px rgba(255,199,59,1);
 }
@@ -424,4 +443,7 @@ box-shadow: 7px 12px 17px 1.555px rgba(255,199,59,1);
 }
 .two{
    font-size:22px;
+}
+.book:hover{
+  transform:scale(1.1);
 }
