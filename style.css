@@ -78,7 +78,7 @@ body {
 .bearpaw{
 position:absolute;
 top:-23px;
-  left:38%;
+  left:164px;
   animation-name:p;
   animation-duration: 2s;
   animation-iteration-count: infinite;
@@ -91,7 +91,7 @@ top:-23px;
 .bearpaw.second{
   position:absolute;
   top:-30px;
-  left:36%;
+  left:155px;
   transform:scale(0.8);
   z-index:22;
   animation-name:ps;
