@@ -9,6 +9,7 @@ body {
   height:525px;
   width: 100%;
   border-top: solid 20px #ffaf3d;
+   border-bottom:solid 20px #ffaf3d;
   animation:background;
   animation-duration:7s;
   animation-iteration-count:infinite;
