@@ -418,16 +418,16 @@ border: 0px solid #000000;
 }
 .teddy{
   position:fixed;
-  transform:scale(1.85);
+  transform:scale(1.88);
   animation-name: teddyy;
   animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-direction:alternate;
 }
 @keyframes teddyy{
-  0%{left:-34%;top:82px;}
+  0%{left:-34%;top:95px;}
   50%{left:-32%;}
-  100%{left:-36%;top:82px;}
+  100%{left:-36%;top:95px;}
 }
 .book{
   position:absolute;
