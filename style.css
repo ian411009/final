@@ -430,6 +430,7 @@ border: 0px solid #000000;
   position:absolute;
   width:510px;
   height:470px;
+  top:30%;
   background:#ffba3b;
   border-radius: 31px 31px 31px 31px;
 -moz-border-radius: 31px 31px 31px 31px;
