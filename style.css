@@ -188,12 +188,14 @@ top:-23px;
   50%{transform:scale(0.7) rotate(-65deg);}
 }
 .backgroundpaw{
+position:absolute;
+transform:scale(1.3);
 }
 .backgroundpaw:hover {
   position: absolute;
   top: 0;
   z-index: 1;
-  transform:scale(1.1);
+  transform:scale(1.4);
 }
 .earleft{
   position:absolute;
