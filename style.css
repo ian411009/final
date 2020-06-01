@@ -422,22 +422,21 @@ border: 0px solid #000000;
   animation-direction:alternate;
 }
 @keyframes teddyy{
-  0%{left:-32%;top:105px;}
+  0%{left:-34%;top:98px;}
   50%{left:-32%;}
-  100%{left:-34%;top:105px;}
+  100%{left:-36%;top:98px;}
 }
 .book{
   position:absolute;
   width:510px;
   height:470px;
-  top:30%;
   background:#ffba3b;
   border-radius: 31px 31px 31px 31px;
 -moz-border-radius: 31px 31px 31px 31px;
 -webkit-border-radius: 31px 31px 31px 31px;
 border: 0px solid #000000;
-  top:20%;
-  left:50%;
+  top:40%;
+  left:53%;
 box-shadow: 7px 12px 17px 1.555px rgba(255,199,59,1);
 transform:scale(1.5);
   transition:0.5s;
