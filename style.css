@@ -418,7 +418,7 @@ border: 0px solid #000000;
 }
 .teddy{
   position:fixed;
-  transform:scale(1.9);
+  transform:scale(1.8);
   animation-name: teddyy;
   animation-duration: 2s;
   animation-iteration-count: infinite;
@@ -438,7 +438,7 @@ border: 0px solid #000000;
 -moz-border-radius: 31px 31px 31px 31px;
 -webkit-border-radius: 31px 31px 31px 31px;
 border: 0px solid #000000;
-  top:45%;
+  top:40%;
   left:55%;
 box-shadow: 7px 12px 17px 1.555px rgba(255,199,59,1);
 transform:scale(1.5);
