@@ -272,6 +272,16 @@ position:absolute;
   top: 1px;
   left: 1px;
   z-index: 2;
+    animation-name:s;
+  animation-direction:alternate;
+  animation-duration:2.5s;
+  animation-iteration-count:infinite;
+}
+@keyframes s{
+  0%{left:1px;top:1px;}
+  50%{left:3px;}
+  70%{top:2px;}
+  100%{left:1px;top:1px;}
 }
 .dot2 {
   position: absolute;
@@ -282,6 +292,16 @@ position:absolute;
   top: 13px;
   left: 13px;
   z-index: 2;
+  animation-name:ss;
+  animation-direction:infinite;
+  animation-iteration-count:infinite;
+  animation-duration:2.5s;
+}
+@keyframes ss{
+  0%{left:13px;top:13px;}
+  50%{left:10px;}
+  70%{top:10px;}
+  100%{left:13px;top:13px;}
 }
 .right1 {
   position: absolute;
